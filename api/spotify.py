@@ -126,9 +126,8 @@ def catch_all(path):
 
     resp = Response(svg, mimetype="image/svg+xml")
     resp.headers["Cache-Control"] = "s-maxage=1"
-    return "Ahh, nope!"
-
-#     return resp
+    # return "Ahh, nope!"
+    return resp
 
 
 
